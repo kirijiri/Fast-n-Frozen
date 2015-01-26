@@ -1,0 +1,33 @@
+BODY {
+        MARGIN-TOP: 0px; FONT-SIZE: 14px; MARGIN-LEFT: 0px; COLOR: #000000; FONT-FAMILY: "arial", "helvetica","sans-serif"; BACKGROUND-COLOR: #fffbe2
+}
+TABLE {
+        BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 14px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+IMG {
+        BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+H1 {
+        FONT-SIZE: 22px; MARGIN-BOTTOM: 0px
+}
+H2 {
+        FONT-SIZE: 17px
+}
+A {
+        COLOR: #333399; TEXT-DECORATION: none
+}
+A:link {
+        COLOR: #333399; TEXT-DECORATION: none
+}
+A:visited {
+        COLOR: #333399; TEXT-DECORATION: none
+}
+A:hover {
+        COLOR: #333399; TEXT-DECORATION: underline
+}
+A:active {
+        COLOR: #333399; TEXT-DECORATION: none
+}
+A:unknown {
+        COLOR: #333399; TEXT-DECORATION: underline
+}
