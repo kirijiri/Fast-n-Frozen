@@ -1,0 +1,186 @@
+Entwicklerdoku
+
+Klasse:					erbt von:		Funktion:					LOC:	Author:
+
+TUQ_AnimActor				Actor			Oberklasse für animierte Dekoration im Level	46	Ronny Schlegel
+
+TUQ_AnimMesh_CheckPoint			TUQ_AnimActor		Klasse für animierte Checkpoints im Level	15	Ronny Schlegel
+
+TUQ_AnimMesh_Start			TUQ_AnimActor		Klasse für animiertes Start-Banner im Level	15	Ronny Schlegel	
+
+TUQ_AnimMesh_Ziel			TUQ_AnimActor		Klasse für animiertes Ziel-Banner im Level	15	Ronny Schlegel
+
+TUQ_CamActor				Actor			Actor, der als Kamera für den Rückspiegel	12	Reik Müller
+								dient
+
+TUQ_CheckpointTeleporter		Teleporter		Zielpunkt, zu dem man teleportiert wird,	114	Reik Müller
+								wenn man zu einem CHeckpoint zurückgesetzt
+								wird
+
+TUQ_Controller				xPlayer			Bestimmt den wesentlichen Teil des Verhaltens	2571	Reik Müller, Ronny Schlegel
+								der Spielfigur. U.a. sind hier implementiert:
+								Steuerung, Kameraführung, Spielerzustände
+								(Slide-Modus), Meshwechsel, Netz-Code zur
+								Synchronisation zwischen den Spielern, etc.
+
+TUQ_CROWD_JubelRobbe1JumpBlau		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1JumpGelb		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1JumpGruen		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1JumpPink		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1JumpRot		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1SignBlau		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1SignGelb		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1SignGruen		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1SignPink		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1SignRot		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1SwivelBlau		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1SwivelGelb		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1SwivelGruen	TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1SwivelPink		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_CROWD_JubelRobbe1SwivelRot		TUQ_AnimActor		Klasse für eine animierte Robbe im Level,	22	Ronny Schlegel
+								dient als Publikum
+
+TUQ_Dynamite				Projectile		Klasse für Dynamit Wurfgeschoss			176	Ronny Schlegel
+
+TUQ_DynamiteFire			ProjektileFire		ist zuständig für alle Effekte beim Werfen	248	Ronny Schlegel
+								von Dynamit
+
+TUQ_DynamiteThrow			Weapon			Klasse für die Dynamit-Waffe im Inventar	21	Ronny Schlegel
+
+TUQ_DynamiteThrowAmmo			Ammunition		Munition für die Dynamit-Waffe			14	Ronny Schelgel
+
+TUQ_DynamiteThrowAmmoPickUp		UTAmmoPickup		Klasse für das Dynamit-Pickup, das im Level	29	Ronny Schlegel
+								aufgesammelt werden kann
+
+TUQ_FinishVolume			Volume			Volume im Level, das registriert, wenn jemand	40	Reik Müller
+								durchs Ziel gefahren ist
+
+TUQ_Game				xDeathMatch		Klasse für Spielinformation. Legt Spielregeln	319	Reik Müller
+								fest, realisiert auch Synchronisation zwischen
+								den Spielern
+
+TUQ_GUIPage				GUIPage			Oberklasse für Menüseiten im Spiel		45	Ronny Schlegel
+
+TUQ_GUI_AudioSettingsTab		Settings_Tabs		Menüseite für Audioeinstellugen			1038	Ronny Schlegel
+
+TUQ_GUI_DetailSettingsTab		Settings_Tabs		Menüseite für Grafikeintellungen		1747	Ronny Schlegel
+
+TUQ_GUI_HostGame			TUQ_GUIPage		Menüseite zum Hosten eines neuen Spiels		126	Ronny Schlegel, Reik Müller
+
+TUQ_GUI_IForceSettingsTab		Settings_Tabs		Menüseite für Eingabeeinstellungen		685	Ronny Schlegel
+
+TUQ_GUI_LANPage 			UT2K4ServerBrowser	Menüseite zum Einstieg in ein laufendes		28	Ronny Schlegel, Reik Müller
+								Spiel. Wird reduziert aufs LAN-Tab
+
+TUQ_GUI_LANTab		UT2K4Browser_ServerlistpageBase		Menüseite zur Auswahl von laufenden Spielen	210	Ronny Schlegel, Reik Müller
+
+TUQ_GUI_MainMenu			TUQ_GUIPage		Hauptmenüseite, Heimat aller Untermenüs		224	Ronny Schelgel
+
+TUQ_GUI_PlayerSettings			TUQ_GUIPage		Menüseite zur Auswahl der eigenen Spielfigur	431	Ronny Schlegel
+
+TUQ_GUI_SettingsPage			UT2K4SettingsPage	Menüseite für allgemeine Spieleinstellungen.	28	Ronny Schlegel
+								Wird reduziert auf Audio-, Grafik- und
+								Eingabeeinstellungen
+
+TUQ_HUD					HudBDeathMatch		zuständig für alles, was im Heads-Up-Display	1530	Reik Müller, Ronny Schlegel
+								dargestellt wird
+
+TUQ_Interaction				Interaction		Interaction-Klasse zum Test von			40	Reik Müller
+								Tastatureingaben
+
+*TUQ_Item				Inventory		Oberklasse für alles, was im Inventar verstaut	123	Ronny Schlegel
+								werden kann
+
+TUQ_JetPack				Weapon			Klasse für JetPack-Waffe im Inventar		97	Ronny Schelgel, Reik Müller
+
+TUQ_JetPackFire				WeaponFire		zuständig Feuerrate, Munitionsverbrauch und	12	Ronny Schlegel
+								Feuersound des JetPacks
+
+TUQ_JetPackFuel				Ammunition		Munition für die JetPack-Waffe			14	Ronny Schlegel
+
+TUQ_JetPackFuelPickUp			UTAmmoPickup		Klasse für das JetPack-Pickup, das im Level	29	Ronny Schlegel
+								aufgesammelt werden kann
+
+TUQ_JetPackTrail			Emitter			Partikeleffekt den das JetPack erzeugt		72	Ronny Schlegel
+
+TUQ_LoadScreen				UT2K4LoadingPageBase	zuständig für eigene Ladebildschirme im Spiel	70	Ronny Schlegel
+
+TUQ_Mauer				Actor			Klasse für die zerstörbare Mauer im Level	53	Ronny Schlegel, Reik Müller
+
+TUQ_MirrorClient			CameraTextureClient	Der CameraTextureClient für den Rückspiegel.	24	Reik Müller
+								Eine Art Controller für eine ScriptedTexture
+
+TUQ_MirrorMesh				Actor			zuständig für die DefaultProperties vom Mesh	24	Reik Müller
+								für den Rückspiegel
+
+TUQ_OffRoadVolume			PhysicsVolume		Volume im Level, das registriert, wenn jemand	119	Reik Müller
+								abseits der Strecke fährt
+
+TUQ_Pawn				xPawn			repräsentiert die Figur, die der Spieler	130	Reik Müller, Ronny Schlegel
+								durchs Level steuert
+
+TUQ_Sand				Pickup			Klasse für den Sand, den man abwerfen kann	9	Ronny Schlegel
+
+TUQ_SandBag				Weapon			Klasse für die Sandsack-Waffe im Inventar	23	Ronny Schlegel
+
+TUQ_SandBagAmmo				Ammunition		Munition für die Sandsack-Waffe			14	Ronny Schelgel
+
+TUQ_SandBagAmmoPickUp			UTAmmoPickup		Klasse für das Sandsack-Pickup, das im Level	29	Ronny Schlegel
+								aufgesammelt werden kann
+
+TUQ_SandBagFire				WeaponFire		zuständig für den Abwurf des Sands beim		25	Ronny Schlegel
+								abfeuern der Sandsack-Waffe
+
+TUQ_SandPickUp				Pickup			Klasse für das Sand-Pickup, das den Spieler	24	Ronny Schlegel
+								bremsen soll
+
+*TUQ_SlideVolume				PhysicsVolume		Volume im Level, das bestimmt, ob man Laufen	38	Reik Müller
+								oder Rutschen soll
+
+TUQ_SoundGroup				xPawnSoundGroup		zuständig für eigene Jump-Sounds im Spiel	14	Ronny Schlegel
+
+TUQ_SPECIES				Speciestype		repräsentiert die Spezies der Spielfiguren,	32	Ronny Schlegel
+								legt die SoundGroup fest
+
+TUQ_STY_Button				GUI2Styles		Klasse für eigenen Button im Menü		39	Ronny Schlegel
+
+TUQ_STY_Button1				GUI2Styles		Klasse für eigenen Button im Menü		39	Ronny Schlegel
+
+TUQ_STY_Button2				GUI2Styles		Klasse für eigenen Button im Menü		39	Ronny Schlegel
+
+TUQ_STY_Button3				GUI2Styles		Klasse für eigenen Button im Menü		39	Ronny Schlegel
+
+*TUQ_WaitingMessage			LocalMessage		Klasse für Textnachricht, wenn man auf		28	Reik Müller
+								Mitspieler wartet
+
+* wird in der Endfassung nicht verwendet
+
+	

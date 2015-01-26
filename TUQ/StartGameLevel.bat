@@ -1,1 +1,0 @@
-start ..\system\UT2004.exe TUQ-Level1.ut2 -mod=TUQ
